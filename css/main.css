@@ -1,0 +1,11 @@
+div a{display: inline-table; ;width:183px; text-align: center; height: 40px;
+ position: relative; border-radius: 15px}
+ul{list-style: none;}
+body{margin-left: 15px; margin-right: 15px}
+ ul li {display: inline-block; width: 24% ; color: ; font-size: 18px; }
+ hr{border: 1px solid red}
+ #table1{border:1px solid red; background-color: #F9E79F; font-size: 25px;}
+td{padding-bottom: 10px}
+.content1{display:none; position: absolute;background-color:white;min-width: 16px;z-index: 1;}
+.content1 a {color:white;padding: 10px 12px;display: block;}
+.dropdown:hover .content1 {display: block;}

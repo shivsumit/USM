@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Payment </title>
+<link rel="stylesheet" type="text/css" href="w3css/w3.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<h1 class="w3-panel w3-center w3-black w3-serif" id="top"> UNNAO SHOPPING MALL </h1>
+<a href="index.html" id="top" class="w3-button w3-orange w3-hover-blue w3-round-large"> HOME </a>
+<center><h2 class="w-panel w3-teal w3-center w3-serif w3-wide" style="width: 50%; border-radius: 20px"> PAYMENT  </h2></center>
+<table align="center"  style="width: 750px; border: 2px solid red; height: 150px; background-color: #EDBB99">
+<tr> <td align="center" colspan="2"> <img src="images/card.jpg"> </td> </tr>
+<tr><td align="center" colspan="2"> <b class="w3-serif w3-xxlarge">CARD DETAILS</b></td></tr>
+<form onsubmit="register()">
+<tr><td align="right"> Card Type : </td><td> <select><option> MASTER CARD </option><option> VISA CARD </option><option> RUPAY </option><option> MAESTRO </option></select></td></tr>
+<tr><td align="right"> Card Number : </td><td> <input required type="text" name="card number" pattern="[0-9]{16}"></td></tr>
+<tr><td align="right"> Valid Till : </td><td><input required type="month" name="Valid Till"> </td></tr>
+<tr><td align="right"> CVC : </td><td><input required type="password" pattern="[0-9]{3}" name="CVC"></td></tr>
+<tr><td align="right"> Name On Card </td><td> <input required type="text" Name="Card HOlder"></td></tr>
+<tr><td colspan="2" align="center"> <input  type="checkbox" name="save this card" value="yes"> Save This Card </td></tr>
+<tr><td colspan="2" align="center"><input required type="submit" value="PROCEED" Name="submit" class="w3-button w3-round-large w3-black"></td></tr></form></table>
+<script type="text/javascript">
+function register()
+ {
+  if (confirm("Are You Want To Proceed This Payment")) 
+  {
+    alert("You Are Done Your Payment. You Will Get Your Order Soon");
+  } else 
+  {
+    alert("First Complete Your Payment");
+  }
+ document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+
+
+<div class=" w3-panel w3-serif" style="background-color:#006622;height: 100px;font-size: 25px; color: white;"><center><a href="termsofsale.html" class="w3-left"> Terms Of Sale </a><a href="termsofuse.html" >Terms Of Use</a> 
+<a href="privacy.html" class="w3-right"> Privacy Policy </a> </center> <P class="w3-center w3-text-white">Copyright © 2021 UNNAO SHOPPING MALL - All Rights Reserved.</P></div>
+
+</body>
+</html>
